@@ -1,0 +1,55 @@
+class MyType {
+		int x;
+		int y;
+		int f(int y) { float z; } 
+		int init() {}
+};
+
+int ix;
+int giy1;
+int giy2;
+float gf = 10.4;
+string gs;
+char gc;
+bool gb;
+int gv[100];
+MyType mObj;
+
+
+int gfun(int z, float f, string s) {
+    int ix;
+}
+
+float ff(int x) {}
+
+bool check() {}
+
+int main() {
+
+gc = 'c'; 
+gs = "Hello there";
+TypeOf(gc);
+gb = false;
+giy1 = 5; 
+giy2 = 100 + giy1; 
+Print(gc);
+int i;
+int ia=1;
+
+for (i = 0; i<5; i = i + 1) {
+	ia=ia*i;
+}
+while (false) {}
+
+Print(gfun(10,10.5, gs));
+Print(check()); 
+gb =  check() == true && giy1+gfun(10,10.5, gs) > giy2;
+Print(gb);
+Print(gb || giy1 == 5); 
+gv[5] = 10;
+giy1 =  giy1+gfun(10,10.5, gs) + mObj.x - gv[10] ;
+gfun(gfun(1,0.5, gs),10.5, gs);
+TypeOf(giy1+5);
+TypeOf(gs);
+
+}

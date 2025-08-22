@@ -1,0 +1,60 @@
+
+int x=3;
+
+int y;
+
+
+int functie() { }
+bool f(int a, int b, int c, bool d, float e) { }
+int g() { }
+int h(int t, bool s) { bool ss=s; }
+
+class numere {
+   int x=7;
+   int y=50;
+   int suma() {
+        int suma=x+y;
+        suma=suma-x+x;
+        if(x!=y) { x=y; }
+   }
+   int dif(int dif) {
+        dif=(y-x)*(-1);
+   }
+   bool f() {
+
+   }
+};
+
+class masina {
+
+}; 
+
+numere nr;
+masina car;
+
+
+
+int main() {
+    string str="Proiect la lfac";
+
+    int v[10];
+    v[0]=2; v[1]=4; v[3]=v[0]+v[1]; 
+
+    int x=9;
+    const int constanta=6;
+    const bool verif=not(true);
+
+    int a = nr.x;
+
+    TypeOf(false + "mama");
+
+    Print(v[1]+v[1]-x);
+    TypeOf(g()+h(v[3],4<6));
+
+    int a;
+
+    if(v[0]<x && 3==3) {
+        v[0]=v[0]+1;
+    }
+    return 0;
+} 
